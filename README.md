@@ -49,4 +49,49 @@ IECR/
    ```bash
    git clone https://github.com/unnatigupta153/IECR.git
    cd IECR
-   
+   2. Install dependencies for both client and server
+ cd client && npm install
+cd ../server && npm install
+3.Set up environment variables
+Create a .env file inside the server/ folder:
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+JWT_SECRET=your_jwt_secret
+4.Run the app
+Start the backend:
+cd server
+npm start
+Start the frontend (in a separate terminal):
+cd client
+npm start
+5.Open http://localhost:3000 in your browser.
+API Overview
+Method
+Endpoint
+Description
+GET
+/api/content
+Fetch all content
+GET
+/api/content/:id
+Fetch single content by ID
+POST
+/api/content
+Add new content (admin only)
+PUT
+/api/content/:id
+Update content (admin only)
+DELETE
+/api/content/:id
+Delete content (admin only)
+Future Improvements
+Personalized recommendations based on user watch history
+User reviews and ratings
+Integration with a live IMDb/TMDB API for real-time data sync
+Author
+Unnati Gupta
+GitHub: @unnatigupta153
+LinkedIn: Unnati Gupta
+License
+This project is open source and available under the MIT License.
+Remember to update the API routes, folder names, and env variable names if they differ from your actual code.
