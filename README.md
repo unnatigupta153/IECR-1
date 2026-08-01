@@ -89,6 +89,7 @@ Personalized recommendations based on user watch history
 User reviews and ratings
 Integration with a live IMDb/TMDB API for real-time data sync
 Author
+
 Unnati Gupta
 GitHub: @unnatigupta153
 LinkedIn: Unnati Gupta
