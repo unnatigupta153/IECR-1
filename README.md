@@ -18,23 +18,6 @@ A full-stack web application that helps users discover top-rated Indian movies a
 **Database:** MongoDB (MongoDB Atlas)
 **Other Tools:** Git & GitHub, Postman (API testing), Vercel (deployment)
 
-## Project Structure
-IECR/
-├── client/                 # React frontend
-│   ├── src/
-│   │   ├── components/     # Reusable UI components
-│   │   ├── pages/          # Page-level components
-│   │   ├── context/        # Global state (if any)
-│   │   └── App.jsx
-│   └── package.json
-├── server/                  # Node/Express backend
-│   ├── models/              # Mongoose schemas
-│   ├── routes/               # API routes
-│   ├── controllers/          # Route logic
-│   ├── config/                # DB connection, env config
-│   └── server.js
-├── .env.example
-└── README.md
 ## Getting Started
 
 ### Prerequisites
